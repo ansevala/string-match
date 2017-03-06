@@ -140,7 +140,7 @@ def same_chars_at_indexes_uncut(str1, str2):
             highest_same_char_count = same_char_count
     return highest_same_char_count
 
-# This function returns the preceding function's information
+# This function returns the information of preceding function
 # as a proportional value
 def same_chars_at_indexes_proportion_uncut(str1, str2):
     if (len(str1) == 0 or len(str2) == 0):
@@ -211,7 +211,7 @@ def sum_of_same_char_sequences(str1, str2, seq_min_length):
             break
     return sum_of_sequences
 
-# This function returns the preceding function's information
+# This function returns the information of preceding function
 # as a proportional value
 def sum_of_same_char_sequences_proportion(str1, str2, seq_min_length):
     if (len(str1) == 0 or len(str2) == 0):
