@@ -132,7 +132,7 @@ def same_chars_at_indexes_uncut(str1, str2):
     for index in range(len(longer_str) - len(shorter_str)):
         same_char_count = 0
         i = 0
-        for x in xrange(index, index + len(shorter_str)):
+        for x in range(index, index + len(shorter_str)):
             if (longer_str[x] == shorter_str[i]):
                 same_char_count += 1
             i += 1
@@ -188,7 +188,7 @@ def sum_of_same_char_sequences(str1, str2, seq_min_length):
         for index in range(len(longer_str) - len(shorter_str)):
             same_char_count = 0
             i = 0
-            for x in xrange(index, index + len(shorter_str)):
+            for x in range(index, index + len(shorter_str)):
                 if (longer_str[x] == shorter_str[i] and longer_str[x] != ' '):
                     same_char_count += 1
                     if (same_char_count > longest_same_char_sequence):
