@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*
+# coding: utf-8
 #
 # Author and maintainer: Anselmi Valasmo
 # Copyright (c) 2017 ansevala
