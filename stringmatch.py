@@ -69,7 +69,7 @@ def greatest_of_a_list(lst):
     for value in lst:
         if (value > greatest):
             greatest = value
-    return greatest;
+    return greatest
 
 # This function returns the greatest value of a matrix
 def greatest_of_a_matrix(matrix):
@@ -83,7 +83,7 @@ def greatest_of_a_matrix(matrix):
         if(greatest_of_a_list(row) > greatest):
             greatest = greatest_of_a_list(row) 
         i += 1
-    return greatest;
+    return greatest
 
 # This function returns the number of characters both strings have allowing
 # multiple occurances
