@@ -31,7 +31,7 @@ def print_matrix(matrix):
     for row in matrix:
         print row
 
-# This function returns a char sequence length matrix
+# This function returns a character sequence length matrix
 def char_sequence_length_matrix(l_str, s_str):
     csl_matrix = []
     char_comparison = []
